@@ -15,9 +15,10 @@ a {
 
 body {
   font-family: Roboto, sans-serif;
-  height: 100vh;
-  /* overflow: hidden; */
+  min-height: 100vh;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* *******HEADER******** */
@@ -27,11 +28,10 @@ body {
   color: #fff;
   padding: 0 15px;
   margin-bottom: 40px;
+  flex: 1;
 }
 
 .nav-container {
-  /* max-width: 1200px; */
-
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
@@ -186,4 +186,20 @@ body {
   cursor: pointer;
   border-radius: 8px;
   border-color: #e5e7eb;
+}
+
+/* **********FOOTER********* */
+
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 0 15px;
+  flex-shrink: 0;
+}
+
+.footer_block {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
