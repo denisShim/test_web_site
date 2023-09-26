@@ -94,12 +94,12 @@ body {
   cursor: pointer;
   background-color: #3882f6;
   color: #f9faf8;
-  padding: 7px 16px;
+  padding: 10px 30px;
   border-radius: 8px;
   border: none;
 }
 
-/* **********SECTION #1********** */
+/***********SECTION #1********** */
 .section-one {
   margin-bottom: 80px;
 }
@@ -120,7 +120,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-bottom: 50px;
 }
 
 .section-one__image {
@@ -134,4 +133,57 @@ body {
   width: 150px;
   text-align: center;
   font-size: 12px;
+}
+
+/*********** SECTION #2 ********** */
+
+.section-two {
+  background-color: #e5e7eb;
+  padding: 70px 0;
+  margin-bottom: 80px;
+}
+
+.section-two__content {
+  padding: 0 200px;
+}
+
+.section-two__text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+.section-two__content blockquote {
+  text-align: right;
+  font-size: 24px;
+}
+
+/*********** SECTION #3 ********** */
+
+.section-three {
+  margin-bottom: 80px;
+}
+
+.section-three__block {
+  padding: 45px 110px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+.section-three__block-item_btn {
+  width: 200px;
+  align-self: center;
+}
+
+.section-three__block-item_btn button {
+  padding: 10px 30px;
+  border-style: solid;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: #e5e7eb;
 }
